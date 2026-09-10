@@ -1,0 +1,46 @@
+{
+  "auditor_independence_attested": false,
+  "automated": {
+    "all_checks_passed": true,
+    "checks": {
+      "adaptive_qualification_reproduces": true,
+      "causalab_qualification_reproduces": true,
+      "confirmatory_namespaces_absent": true,
+      "evidence_hashes_match": true,
+      "freeze_identity_and_source_hashes": true,
+      "frozen_test_suite_passes": true,
+      "protocol_hashes_match": true
+    },
+    "test_command": [
+      "/Users/krishnachaitanya/Documents/New project/Scientist/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_autonomy_adaptive_worlds_v1.py",
+      "tests/test_autonomy_adaptive_three_arm_v1.py",
+      "tests/test_autonomy_adaptive_confirmatory_v1.py",
+      "tests/test_autonomy_causalab_transport_v1.py",
+      "tests/test_causalab_external.py",
+      "tests/test_causalab_generator.py",
+      "tests/test_causalab_three_arm.py",
+      "tests/test_causalab_codex_runner.py",
+      "tests/test_causalab_validity_v2.py"
+    ],
+    "test_output_tail": "........................................................................ [ 47%]\n........................................................................ [ 95%]\n.......                                                                  [100%]\n151 passed in 3.84s\n",
+    "test_returncode": 0,
+    "test_stderr_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "test_stdout_sha256": "5b17c2e3175ba1419cdcdc680a73b56ee707f1bab13366f5b762c4039991497e"
+  },
+  "automated_audit_id": "d285255d31c9cdfb51fc5091d4eef149d9a410832beda7017ac68ba88cceb6fe",
+  "freeze_id": "27a53ce49129ca44dd45f1120241b5b7e7c4674759f95666ec714c42e0bdce95",
+  "human_checks": {
+    "answer_separation_inspected": false,
+    "interruption_and_no_selective_rerun_inspected": false,
+    "matched_resources_inspected": false,
+    "mechanistic_ablation_isolation_inspected": false,
+    "provider_entropy_and_authority_sequestration_inspected": false,
+    "statistical_and_claim_gates_inspected": false
+  },
+  "provider_execution_authorized": false,
+  "version": "autonomous-scientist-automated-audit-report-v1"
+}

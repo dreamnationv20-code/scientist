@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+  <defs>
+    <style>
+      .title{font:700 34px Arial,sans-serif;fill:#101828}.panel{font:700 26px Arial,sans-serif;fill:#101828}.label{font:700 19px Arial,sans-serif;fill:#101828}.small{font:400 17px Arial,sans-serif;fill:#475467}.tiny{font:400 15px Arial,sans-serif;fill:#667085}.center{text-anchor:middle}.white{fill:#fff}
+    </style>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#101828" flood-opacity="0.11"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#667085"/></marker>
+  </defs>
+  <rect width="1800" height="1000" fill="#FFFFFF"/>
+  <text x="54" y="57" class="title">Development qualification establishes operating range, not a treatment effect</text>
+
+  <rect x="52" y="103" width="545" height="510" rx="22" fill="#F8FAFC" stroke="#D0D5DD" stroke-width="2"/>
+  <text x="82" y="146" class="panel">a</text><text x="124" y="146" class="label">Committed development panel</text>
+  <text x="124" y="176" class="small">18 matched tasks · 54 model episodes</text>
+  <line x1="124" y1="506" x2="535" y2="506" stroke="#98A2B3" stroke-width="2"/>
+  <line x1="124" y1="226" x2="124" y2="506" stroke="#98A2B3" stroke-width="2"/>
+  <g stroke="#E4E7EC" stroke-width="1">
+    <line x1="124" y1="436" x2="535" y2="436"/><line x1="124" y1="366" x2="535" y2="366"/><line x1="124" y1="296" x2="535" y2="296"/><line x1="124" y1="226" x2="535" y2="226"/>
+  </g>
+  <text x="111" y="512" class="tiny center">0</text><text x="106" y="442" class="tiny center">25</text><text x="106" y="372" class="tiny center">50</text><text x="106" y="302" class="tiny center">75</text><text x="102" y="232" class="tiny center">100%</text>
+  <rect x="173" y="304" width="85" height="202" rx="8" fill="#1570EF"/><rect x="298" y="397" width="85" height="109" rx="8" fill="#98A2B3"/><rect x="423" y="413" width="85" height="93" rx="8" fill="#D0D5DD"/>
+  <text x="216" y="285" class="label center">13/18</text><text x="341" y="378" class="label center">7/18</text><text x="466" y="394" class="label center">6/18</text>
+  <text x="216" y="542" class="small center">Authority</text><text x="216" y="566" class="small center">separated</text>
+  <text x="341" y="542" class="small center">Prompt</text><text x="341" y="566" class="small center">equated</text>
+  <text x="466" y="542" class="small center">Free</text><text x="466" y="566" class="small center">model</text>
+
+  <rect x="627" y="103" width="545" height="510" rx="22" fill="#F8FAFC" stroke="#D0D5DD" stroke-width="2"/>
+  <text x="657" y="146" class="panel">b</text><text x="699" y="146" class="label">Post-extension regression</text>
+  <text x="699" y="176" class="small">6 matched tasks · 18 model episodes</text>
+  <line x1="699" y1="506" x2="1110" y2="506" stroke="#98A2B3" stroke-width="2"/>
+  <line x1="699" y1="226" x2="699" y2="506" stroke="#98A2B3" stroke-width="2"/>
+  <g stroke="#E4E7EC" stroke-width="1">
+    <line x1="699" y1="436" x2="1110" y2="436"/><line x1="699" y1="366" x2="1110" y2="366"/><line x1="699" y1="296" x2="1110" y2="296"/><line x1="699" y1="226" x2="1110" y2="226"/>
+  </g>
+  <text x="686" y="512" class="tiny center">0</text><text x="681" y="442" class="tiny center">25</text><text x="681" y="372" class="tiny center">50</text><text x="681" y="302" class="tiny center">75</text><text x="677" y="232" class="tiny center">100%</text>
+  <rect x="748" y="226" width="85" height="280" rx="8" fill="#1570EF"/><rect x="873" y="319" width="85" height="187" rx="8" fill="#98A2B3"/><rect x="998" y="366" width="85" height="140" rx="8" fill="#D0D5DD"/>
+  <text x="791" y="207" class="label center">6/6</text><text x="916" y="300" class="label center">4/6</text><text x="1041" y="347" class="label center">3/6</text>
+  <text x="791" y="542" class="small center">Authority</text><text x="791" y="566" class="small center">separated</text>
+  <text x="916" y="542" class="small center">Prompt</text><text x="916" y="566" class="small center">equated</text>
+  <text x="1041" y="542" class="small center">Free</text><text x="1041" y="566" class="small center">model</text>
+
+  <rect x="1202" y="103" width="546" height="510" rx="22" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+  <text x="1232" y="146" class="panel">c</text><text x="1274" y="146" class="label">What is established</text>
+  <circle cx="1250" cy="210" r="13" fill="#12B76A"/><path d="M1243 210 l5 6 l10 -14" fill="none" stroke="#fff" stroke-width="4"/>
+  <text x="1280" y="217" class="small">The full assay executes across all states and faults</text>
+  <circle cx="1250" cy="265" r="13" fill="#12B76A"/><path d="M1243 265 l5 6 l10 -14" fill="none" stroke="#fff" stroke-width="4"/>
+  <text x="1280" y="272" class="small">151 frozen control tests pass</text>
+  <circle cx="1250" cy="320" r="13" fill="#12B76A"/><path d="M1243 320 l5 6 l10 -14" fill="none" stroke="#fff" stroke-width="4"/>
+  <text x="1280" y="327" class="small">No false promotion in either final panel</text>
+  <circle cx="1250" cy="375" r="13" fill="#12B76A"/><path d="M1243 375 l5 6 l10 -14" fill="none" stroke="#fff" stroke-width="4"/>
+  <text x="1280" y="382" class="small">Failures and corrections remain auditable</text>
+  <text x="1232" y="448" class="label" fill="#B54708">What is not established</text>
+  <text x="1232" y="486" class="small">No confirmatory effect estimate</text>
+  <text x="1232" y="519" class="small">No end-to-end autonomy effect</text>
+  <text x="1232" y="552" class="small">No cross-domain or independent replication</text>
+  <text x="1232" y="585" class="small">No Nature-level central claim</text>
+
+  <rect x="52" y="655" width="1696" height="280" rx="22" fill="#F9FAFB" stroke="#D0D5DD" stroke-width="2"/>
+  <text x="82" y="699" class="panel">d</text><text x="124" y="699" class="label">Prospective evidence sequence</text>
+  <line x1="153" y1="802" x2="1645" y2="802" stroke="#98A2B3" stroke-width="5" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="76" y="745" width="205" height="116" rx="16" fill="#ECFDF3" stroke="#12B76A" stroke-width="2"/>
+    <rect x="311" y="745" width="205" height="116" rx="16" fill="#FFF6ED" stroke="#F79009" stroke-width="3"/>
+    <rect x="546" y="745" width="205" height="116" rx="16" fill="#EFF8FF" stroke="#53B1FD" stroke-width="2"/>
+    <rect x="781" y="745" width="205" height="116" rx="16" fill="#EFF8FF" stroke="#53B1FD" stroke-width="2"/>
+    <rect x="1016" y="745" width="205" height="116" rx="16" fill="#FFF6ED" stroke="#F79009" stroke-width="2"/>
+    <rect x="1251" y="745" width="205" height="116" rx="16" fill="#F9F5FF" stroke="#9E77ED" stroke-width="2"/>
+    <rect x="1486" y="745" width="205" height="116" rx="16" fill="#F2F4F7" stroke="#667085" stroke-width="2"/>
+  </g>
+  <text x="178" y="784" class="label center">Development</text><text x="178" y="817" class="small center">complete · excluded</text><text x="178" y="843" class="tiny center">72 episodes</text>
+  <text x="413" y="784" class="label center">Independent audit</text><text x="413" y="817" class="small center">current boundary</text><text x="413" y="843" class="tiny center">no study seeds yet</text>
+  <text x="648" y="784" class="label center">Authority study</text><text x="648" y="817" class="small center">180 matched tasks</text><text x="648" y="843" class="tiny center">540 episodes</text>
+  <text x="883" y="777" class="label center">Mechanism</text><text x="883" y="800" class="label center">+ transport</text><text x="883" y="827" class="small center">five removals</text><text x="883" y="849" class="tiny center">new world · 540 episodes</text>
+  <text x="1118" y="784" class="label center">Closure study</text><text x="1118" y="817" class="small center">unseen root objectives</text><text x="1118" y="843" class="tiny center">separate preregistration</text>
+  <text x="1353" y="784" class="label center">Replication</text><text x="1353" y="817" class="small center">separate laboratory</text><text x="1353" y="843" class="tiny center">disjoint tasks</text>
+  <text x="1588" y="784" class="label center">Claim integrator</text><text x="1588" y="817" class="small center">conjunctive decision</text><text x="1588" y="843" class="tiny center">promote or downgrade</text>
+  <text x="413" y="909" class="label center" fill="#B54708">NOW</text>
+  <path d="M413 892 V866" stroke="#F79009" stroke-width="4"/>
+</svg>
